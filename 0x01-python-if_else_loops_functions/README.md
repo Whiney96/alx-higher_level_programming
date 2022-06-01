@@ -1,6 +1,5 @@
 <html>
 <head>
-	<title></title>
 	<h1 align="center">if...else, Loops and Functions</h1>
 </head>
 <body>
