@@ -2,4 +2,4 @@
 def uppercase(str):
     for i in str:
         if str in range(97, 123):
-            print(str.swapcase())
+            print("{0}".format(str.lower()))
