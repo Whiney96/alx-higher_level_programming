@@ -3,6 +3,6 @@ def islower(c):
     islower = __import__('7-islower').islower
 
     if c is True:
-        print("islower(c) is {}".format("upper"))
+        print(c, " is {}".format("upper"))
     else:
-        print("islower(c) is {}".format("lower"))
+        print(c, " is {}".format("lower"))
