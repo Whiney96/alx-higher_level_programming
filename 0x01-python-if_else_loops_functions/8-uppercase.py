@@ -1,5 +1,5 @@
 #!/usr/bin/python3
 def uppercase(str):
     for i in str:
-        if str.islower():
-            print("{0:C}".format(i))
+        if str in range(97, 123):
+            print(str.swapcase())
