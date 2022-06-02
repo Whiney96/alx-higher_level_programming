@@ -5,7 +5,8 @@ def fizzbuzz():
             print("{}".format("Fizz"), end=(" "))
         elif i % 5 == 0:
             print("{}".format("Buzz"), end=(" "))
-        elif i % 3 and i % 5:
-            print("FizzBuzz", end=(" "))
+        elif i % 3 == 0:
+            while i % 5 == 0:
+                print("FizzBuzz", end=(" "))
         else:
             print("{}".format(i), end=(" "))
