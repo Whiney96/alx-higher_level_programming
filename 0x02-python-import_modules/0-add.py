@@ -1,10 +1,11 @@
 #!/usr/bin/python3
-def add(a, b):
+from add_0 import add
+
+
+def main():
     a = 1
     b = 2
-    x = a + b
-    print("{0} + {1} = {2}".format(a, b, x))
+    print("{0} + {1} = {2}".format(a, b, add(a, b))
 
-    if __name__ == "__main__":
-        import sys
-        add(int(sys.argv[2]))
+if __name__ == "__main__":
+    main()
