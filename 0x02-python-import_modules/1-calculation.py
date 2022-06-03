@@ -21,4 +21,5 @@ def div(a, b):
     print("{} + {} = {}".format(a, b, div(a, b)))
 
     if __name__ == "__main__":
-        main()
+        import sys
+        calculator_1(int(sys.argv[2]))
