@@ -1,3 +1,8 @@
 #!/usr/bin/python3
 def print_matrix_integer(matrix=[[]]):
-    print("{0} {1} {2}".format(matrix[0], matrix[1], matrix[2])
+    a = matrix[0];
+    b = matrix[1];
+    c = matrix[2];
+    print("{}".format(a))
+    print("{}".format(b))
+    print("{}".format(c))
