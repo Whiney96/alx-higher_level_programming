@@ -6,4 +6,4 @@ def no_c(my_string):
         elif x == 'C':
             return my_string.remove('C')
         else:
-            return my_string[:]
+            return my_string
