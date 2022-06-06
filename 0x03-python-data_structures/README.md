@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <title>Python Lists and Tuples</title>
+    <h1>Python Lists and Tuples</h1>
   <head>
   <body>
     <p>This is a project from ALX on python Lists and Tuples. Below are a list of the tasks to be performed.</p>
