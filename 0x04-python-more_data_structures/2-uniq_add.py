@@ -1,5 +1,6 @@
 #!/usr/bin/python3
 def uniq_add(my_list=[]):
-    uniq = set(my_list)
-    result = map(lambda x: x+x, uniq)
-    print("Result: {:d}".format(result))
+    set(my_list)
+    for x in my_list:
+        result = x + x
+        print("Result: {:d}".format(result))
