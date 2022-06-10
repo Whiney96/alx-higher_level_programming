@@ -2,4 +2,4 @@
 def uniq_add(my_list=[]):
     import functools
     result = reduce(lambda x, y: x + y, set(my_list))
-    print("Result: {:d}".format(result))
+    return (result)
